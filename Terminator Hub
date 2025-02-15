@@ -73,6 +73,12 @@ local Button = MainTab:CreateButton({
    end,
 })
 
+local Button = MainTab:CreateButton({
+   Name = "More will be available soon",
+   Callback = function()
+   end,
+})
+
 local VisualTab = Window:CreateTab("Visual", nil) -- Title, Image
 local VisualSection = VisualTab:CreateSection("Visual")
 
